@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "public",
+    "rewrites": [{
+      "source": "/helloWorld"
+    }],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
